@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Contoso Bank</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--linking to bootstrap--> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--Linking CSS files to style the website-->
+    <link href="StyleSheet1.css" rel="stylesheet" />
+
+    
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand">Contoso Bank</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a>About us</a></li>
+                    <li><a>Services</a></li>
+                    <li><a>Contacts</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid blue text-center">
+        <h1 class="margin">Welcome to Contoso Bank</h1>
+        <img src="/images/logo.jpg" class="img-responsive img-circle margin" style="display:inline; max-width:25%" alt="logo">
+        <h3>Feel free to click on the top menu to view our services</h3>
+        <h3>Try out our new transaction tracker chatbot</h3>
+        <h3>Disclaimer: If it doesn't work in Edge, try Chrome</h3>
+    </div>
+
+
+    
+
+    <div id="chat">
+        <!--<img id="chat-button" src="/images/chatico.png" onclick="openChat()" />
+        <div id="chat-frame" class="hide">
+            <iframe src='https://webchat.botframework.com/embed/Conto?s=EmeLbPVnHm8.cwA.baU.U5yGwv1wsRO3XqRJojoyPZCMXqsNI7C8tWZBJYmuC54'></iframe>
+            <img src="/images/minus.png" onclick="closeChat()" />
+        </div>-->
+        <span class="skype-button bubble " data-bot-id="3579d48b-c4a2-45a1-91cb-d34c89c927d4" data-color="#00729d"></span>
+        <script src="https://swc.cdn.skype.com/sdk/v1/sdk.min.js"></script>
+    </div>
+
+</body>
+</html>
